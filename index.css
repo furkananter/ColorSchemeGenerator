@@ -1,0 +1,35 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    text-align: center;
+}
+.frame{
+  background-color:white;
+  border-radius: 0.5rem;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.container > select,input,button{
+    margin:10px;
+}
+
+.colors{
+    display:flex;
+}
+.colorss{
+    height: 200px;
+    width: 100%;
+}
+
+.hex{
+    display:flex;
+}
+.hexCodes{
+    margin-top:1.2rem;
+    height: 2.5rem;
+    width: 100%;
+}
